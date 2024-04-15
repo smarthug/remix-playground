@@ -21,6 +21,9 @@ export default function Index() {
         <li>
           <Link to="/csr">Client-Side Rendering</Link>
         </li>
+        <li>
+          <Link to="/client-side-routing">client side routing</Link>
+        </li>
       </ul>
     </div>
   );
