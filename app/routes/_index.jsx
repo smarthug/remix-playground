@@ -18,6 +18,9 @@ export default function Index() {
         <li>
           <Link to="/hello">Hello</Link>
         </li>
+        <li>
+          <Link to="/csr">Client-Side Rendering</Link>
+        </li>
       </ul>
     </div>
   );
