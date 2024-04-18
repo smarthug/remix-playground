@@ -24,6 +24,9 @@ export default function Index() {
         <li>
           <Link to="/client-side-routing">client side routing</Link>
         </li>
+        <li>
+          <Link to="/test">test</Link>
+        </li>
       </ul>
     </div>
   );
