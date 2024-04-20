@@ -27,6 +27,9 @@ export default function Index() {
         <li>
           <Link to="/test">test</Link>
         </li>
+        <li>
+          <Link to="/mui">mui</Link>
+        </li>
       </ul>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import { ClientOnly } from "remix-utils/client-only";
 
 export default function CSR() {
@@ -21,6 +22,9 @@ function ComplexComponentNeedingBrowserEnvironment() {
         This is useful for pages that need to be updated frequently or that
         contain dynamic content.
       </p>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   );
 }
